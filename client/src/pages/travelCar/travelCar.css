@@ -1,0 +1,94 @@
+
+.travel {
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+  
+  }
+  
+  .travelListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .travelListItem.active {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .travelDesc {
+    margin: 20px 0px;
+  }
+  
+  .travelBtn {
+    background-color: #4cec23;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .travelSearch {
+    height: 18px;
+    background-color: white;
+    border: 3px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+  }
+  
+  .travelIcon {
+    color: lightgray;
+  }
+  
+  .travelSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .travelSearchInput {
+    border: none;
+    outline: none;
+  }
+  
+  .travelSearchText {
+    color: lightgray;
+    cursor: pointer;
+  }
+  
+  .date {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+  }
+
+  .listResult{
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+  }
+
+  .travelmail{
+      margin-left: 160px;
+  }
+
+  .travelfooter{
+    margin-left: 160px;
+    margin-top: 50px;
+
+  }
+  

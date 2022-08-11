@@ -1,0 +1,204 @@
+.carItem {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 102px;
+    
+  }
+  
+  .carImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .carHour {
+    display: flex;
+    flex-direction: column;
+    margin-top: -2rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .carIcon {
+    font-size: 20px;
+    color: #0071c2;
+  }
+  
+  .duration {
+    font-size: 12px;
+    color:red;
+    margin-top: 8rem;
+    position: absolute;
+    margin-bottom: 5rem;
+  }
+  
+  .priceticket{
+      color: blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -2rem;
+     
+  }
+  
+  
+  .carCheckButton{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+    display: flex;
+  }
+  
+  .carwhole{
+    display: flex;
+  }
+  
+  
+  .car{
+      height: 300px;
+      display: flex;
+      flex: 6;
+      flex-direction: column;
+      justify-content: space-around;
+      align-content: center;
+      background-color: rgb(199, 194, 194);
+      
+    
+  }
+  
+  .colorSeat{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  }
+  
+  
+  .exit1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .colorSeat1{
+    height: 20px;
+    width: 30px;
+    background: orangered;
+    border: 0.1rem solid;
+    
+  }
+  .colorSeat2{
+    height: 20px;
+    width: 30px;
+    background: rgb(238, 13, 51);
+    border: 0.1rem solid;
+    
+  }
+  
+  .colorSeat3{
+    height: 20px;
+    width: 30px;
+    background: green;
+    border: 0.1rem solid;
+    
+  }
+  
+  .colorSeat4{
+    height: 20px;
+    width: 30px;
+    background: white;
+    border: 0.1rem solid;
+    
+  }
+  
+  
+  .chooseSeat{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    
+  }
+  
+  .chooseSeat>span{
+    width: 100%;
+    background: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .chooseSeat>button{
+    background:rgb(72, 255, 0) ;
+    color: white;
+    width: 100%;
+    border-color: white;
+    cursor: pointer;
+    
+  }
+  
+  ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .seats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 80%;
+  }
+  
+  .seat1{
+      margin-bottom: 0.5rem;
+  }
+  .seat {
+    display: flex;
+    justify-content:space-around ;
+    
+  }
+  
+  
+  
+  
+  .seat input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  
+  .seat label {
+    display: block;
+    position: relative;
+    width: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5rem;
+    padding: 4px 0;
+    color: #fff;
+    background: #26a69a;
+    border-radius: 2px;
+    animation-duration: 300ms;
+    animation-fill-mode: both;
+    transition-duration: 300ms;
+  }
+  .seat label:hover {
+    cursor: pointer;
+    box-shadow: 0px 0 7px 3px #ccc;
+  }

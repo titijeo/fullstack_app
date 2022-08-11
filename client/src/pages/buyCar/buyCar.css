@@ -1,0 +1,81 @@
+.buycar {
+  background-color: orange;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.buyBtn {
+  background-color: #4cec23;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 15rem;
+}
+
+.buySearch {
+  height: 18px;
+  background-color: white;
+  border: 3px solid #febb02;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.buyIcon {
+  color: lightgray;
+}
+
+.buySearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.buySearchInput {
+  border: none;
+  outline: none;
+}
+
+.buySearchText {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.date {
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+}
+
+
+.listResult {
+  margin-top: 40px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 50px;
+}
+
+.buymail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10rem;
+  margin-top: -4rem;
+}
+
+.buyfooter {
+  margin-left: 160px;
+  margin-top: 50px;
+
+}
